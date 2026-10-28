@@ -1,10 +1,16 @@
 const translations = {
   en: {
     skip: "Skip to content", navProjects: "Projects", navAbout: "About", navSkills: "Skills", navContact: "Contact", languageLabel: "Language",
-    eyebrow: "WATER RESOURCES · HYDRAULICS · INFRASTRUCTURE", heroTitle: "Engineering water.<br><em>Understanding systems.</em>",
-    heroText: "I am a Water Resources Engineer with an MSc from KU Leuven, interested in hydraulic processes, numerical modelling and water-related infrastructure.",
-    viewProjects: "Explore selected projects", getInTouch: "Get in touch", heroNote: "Based in Peru · International outlook · Open to engineering opportunities",
-    introLabel: "A PRACTICAL, ANALYTICAL APPROACH", introText: "I connect physical understanding, numerical analysis and clear technical communication to explore water-related engineering problems.",
+    heroTitle: "Water, Engineering &amp;<br><em>Project Development.</em>",
+    heroText: "I'm a Civil Engineer with an MSc from KU Leuven, passionate about water, multidisciplinary engineering projects, and solutions that make a meaningful difference for people and the environment.",
+    viewProjects: "Explore projects", getInTouch: "Contact me",
+    heroNote: "Based in Peru · International experience · Open to opportunities",
+    introLabel: "BEYOND THE TECHNICAL",
+    introText: "Turning technical knowledge into practical solutions that make a meaningful difference for people and the environment.",
+    aboutSmallLabel: "ABOUT ME",
+    aboutP1: "I'm a Peruvian Civil Engineer with an MSc in Water Resources Engineering from KU Leuven and international experience in Europe and East Africa.",
+    aboutP2: "My background combines hydraulic engineering, data analysis, and numerical modelling with an interest in project development, tendering, and maritime infrastructure.",
+    aboutP3: "I enjoy connecting technical knowledge with practical problem-solving, collaborating across disciplines, and contributing to projects that create lasting value for people and the environment.",
     selectedWork: "SELECTED WORK", projectsTitle: "Projects & case studies", projectsAside: "A selection of academic and professional work. More projects will be added as the portfolio grows.",
     visualConcept: "Conceptual visual · replace with thesis figure", thesisType: "MASTER'S THESIS · KU LEUVEN", thesisTitle: "Suspended Sediment Transport Modelling",
     thesisDesc: "A 1DV modelling study of suspended sediment concentration profiles in uniform open-channel flow, exploring turbulence, sediment transport and near-bed processes.",
@@ -13,8 +19,8 @@ const translations = {
     projectPlaceholder: "Project details to be added", futureFocus: "PROFESSIONAL INTEREST", maritimeVisual: "MARITIME INFRASTRUCTURE",
     maritimeTitle: "Coastal & port engineering", maritimeDesc: "An area of professional interest connecting water processes with port infrastructure, coastal resilience and maritime construction.",
     interestLink: "Explore my interests", aboutLabel: "ABOUT", aboutTitle: "Curious about the processes behind the numbers.",
-    aboutP1: "My background combines civil engineering with graduate training in water resources engineering at KU Leuven. Through my master's thesis, I worked on numerical modelling of suspended sediment concentration profiles and the interpretation of experimental data.",
-    aboutP2: "I enjoy understanding why a model behaves as it does, communicating technical findings clearly and connecting analytical work to practical engineering questions.",
+    aboutBandP1: "My background combines civil engineering with graduate training in water resources engineering at KU Leuven. Through my master's thesis, I worked on numerical modelling of suspended sediment concentration profiles and the interpretation of experimental data.",
+    aboutBandP2: "I enjoy understanding why a model behaves as it does, communicating technical findings clearly and connecting analytical work to practical engineering questions.",
     aboutNote: "This portfolio is a work in progress. Project descriptions and results will be updated with verified material from my work.",
     capabilities: "CAPABILITIES", skillsTitle: "Tools & areas of knowledge", skillsAside: "A working overview, to be refined as projects and proficiency levels are verified.",
     skill1Title: "Water & hydraulics", skill1Text: "Open-channel flow, sediment transport and water-related physical processes.",
@@ -26,10 +32,16 @@ const translations = {
   },
   es: {
     skip: "Saltar al contenido", navProjects: "Proyectos", navAbout: "Sobre mí", navSkills: "Competencias", navContact: "Contacto", languageLabel: "Idioma",
-    eyebrow: "RECURSOS HÍDRICOS · HIDRÁULICA · INFRAESTRUCTURA", heroTitle: "Ingeniería del agua.<br><em>Comprender los sistemas.</em>",
-    heroText: "Soy ingeniera de recursos hídricos, con un máster de KU Leuven e interés en los procesos hidráulicos, la modelización numérica y las infraestructuras relacionadas con el agua.",
-    viewProjects: "Explorar proyectos", getInTouch: "Contactarme", heroNote: "En Perú · Proyección internacional · Abierta a oportunidades de ingeniería",
-    introLabel: "UN ENFOQUE PRÁCTICO Y ANALÍTICO", introText: "Combino la comprensión física, el análisis numérico y la comunicación técnica para estudiar problemas de ingeniería relacionados con el agua.",
+    heroTitle: "Agua, ingeniería y<br><em>desarrollo de proyectos.</em>",
+    heroText: "Soy ingeniera civil con un máster de KU Leuven. Me apasionan el agua, los proyectos de ingeniería multidisciplinarios y las soluciones que generan un impacto positivo en las personas y el medio ambiente.",
+    viewProjects: "Explorar proyectos", getInTouch: "Contactarme",
+    heroNote: "En Perú · Experiencia internacional · Abierta a oportunidades",
+    introLabel: "MÁS ALLÁ DE LO TÉCNICO",
+    introText: "Transformar conocimientos técnicos en soluciones prácticas que generen un impacto positivo en las personas y el medio ambiente.",
+    aboutSmallLabel: "SOBRE MÍ",
+    aboutP1: "Soy ingeniera civil peruana, con un máster en Ingeniería de Recursos Hídricos de KU Leuven y experiencia internacional en Europa y África Oriental.",
+    aboutP2: "Mi formación combina ingeniería hidráulica, análisis de datos y modelización numérica con interés en el desarrollo de proyectos, las licitaciones y la infraestructura marítima.",
+    aboutP3: "Disfruto conectar el conocimiento técnico con la resolución de problemas prácticos, colaborar entre disciplinas y contribuir a proyectos que generen valor duradero para las personas y el medio ambiente.",
     selectedWork: "TRABAJOS SELECCIONADOS", projectsTitle: "Proyectos y casos de estudio", projectsAside: "Una selección de trabajos académicos y profesionales. Añadiré más proyectos a medida que crezca el portafolio.",
     visualConcept: "Visual conceptual · sustituir por una figura de la tesis", thesisType: "TESIS DE MÁSTER · KU LEUVEN", thesisTitle: "Modelización del transporte de sedimentos suspendidos",
     thesisDesc: "Estudio de modelización 1DV de los perfiles de concentración de sedimentos suspendidos en flujo uniforme a superficie libre, con atención a la turbulencia, el transporte de sedimentos y los procesos cerca del lecho.",
@@ -38,8 +50,8 @@ const translations = {
     projectPlaceholder: "Detalles del proyecto por añadir", futureFocus: "INTERÉS PROFESIONAL", maritimeVisual: "INFRAESTRUCTURA MARÍTIMA",
     maritimeTitle: "Ingeniería costera y portuaria", maritimeDesc: "Área de interés profesional que conecta los procesos del agua con la infraestructura portuaria, la resiliencia costera y la construcción marítima.",
     interestLink: "Ver mis intereses", aboutLabel: "SOBRE MÍ", aboutTitle: "Me interesa comprender los procesos detrás de los números.",
-    aboutP1: "Mi formación combina la ingeniería civil con estudios de posgrado en ingeniería de recursos hídricos en KU Leuven. En mi tesis de máster trabajé en la modelización numérica de perfiles de concentración de sedimentos suspendidos y en la interpretación de datos experimentales.",
-    aboutP2: "Me interesa comprender por qué se comporta de cierta manera un modelo, comunicar los resultados técnicos con claridad y conectar el análisis con problemas prácticos de ingeniería.",
+    aboutBandP1: "Mi formación combina la ingeniería civil con estudios de posgrado en ingeniería de recursos hídricos en KU Leuven. En mi tesis de máster trabajé en la modelización numérica de perfiles de concentración de sedimentos suspendidos y en la interpretación de datos experimentales.",
+    aboutBandP2: "Me interesa comprender por qué se comporta de cierta manera un modelo, comunicar los resultados técnicos con claridad y conectar el análisis con problemas prácticos de ingeniería.",
     aboutNote: "Este portafolio está en construcción. Las descripciones y los resultados se actualizarán con material verificado de mis trabajos.",
     capabilities: "COMPETENCIAS", skillsTitle: "Herramientas y áreas de conocimiento", skillsAside: "Resumen inicial que se precisará al verificar los proyectos y los niveles de dominio.",
     skill1Title: "Agua e hidráulica", skill1Text: "Flujo a superficie libre, transporte de sedimentos y procesos físicos relacionados con el agua.",
@@ -51,10 +63,16 @@ const translations = {
   },
   nl: {
     skip: "Ga naar de inhoud", navProjects: "Projecten", navAbout: "Over mij", navSkills: "Vaardigheden", navContact: "Contact", languageLabel: "Taal",
-    eyebrow: "WATERBRONNEN · HYDRAULICA · INFRASTRUCTUUR", heroTitle: "Werken aan water.<br><em>Systemen begrijpen.</em>",
-    heroText: "Ik ben waterbouwkundig ingenieur met een masterdiploma van KU Leuven. Mijn interesses liggen bij hydraulische processen, numerieke modellering en watergerelateerde infrastructuur.",
-    viewProjects: "Bekijk geselecteerde projecten", getInTouch: "Neem contact op", heroNote: "Gevestigd in Peru · Internationale blik · Open voor technische kansen",
-    introLabel: "EEN PRAKTISCHE, ANALYTISCHE AANPAK", introText: "Ik combineer fysisch inzicht, numerieke analyse en heldere technische communicatie om watergerelateerde ingenieursvraagstukken te onderzoeken.",
+    heroTitle: "Water, techniek en<br><em>projectontwikkeling.</em>",
+    heroText: "Ik ben civiel ingenieur met een masterdiploma van KU Leuven. Ik ben gepassioneerd door water, multidisciplinaire technische projecten en oplossingen die een betekenisvol verschil maken voor mensen en het milieu.",
+    viewProjects: "Bekijk projecten", getInTouch: "Contact opnemen",
+    heroNote: "Gevestigd in Peru · Internationale ervaring · Open voor kansen",
+    introLabel: "MEER DAN ALLEEN TECHNIEK",
+    introText: "Technische kennis vertalen naar praktische oplossingen die een betekenisvol verschil maken voor mensen en het milieu.",
+    aboutSmallLabel: "OVER MIJ",
+    aboutP1: "Ik ben een Peruaanse civiel ingenieur met een master in Water Resources Engineering van KU Leuven en internationale ervaring in Europa en Oost-Afrika.",
+    aboutP2: "Mijn achtergrond combineert hydraulische engineering, data-analyse en numerieke modellering met interesse in projectontwikkeling, aanbestedingen en maritieme infrastructuur.",
+    aboutP3: "Ik verbind graag technische kennis met praktische probleemoplossing, werk samen met verschillende disciplines en draag bij aan projecten die blijvende waarde creëren voor mensen en het milieu.",
     selectedWork: "GESELECTEERD WERK", projectsTitle: "Projecten en casestudies", projectsAside: "Een selectie van academisch en professioneel werk. In de loop van de tijd voeg ik meer projecten toe.",
     visualConcept: "Conceptuele visualisatie · vervangen door een figuur uit de thesis", thesisType: "MASTERTHESIS · KU LEUVEN", thesisTitle: "Modellering van gesuspendeerd sedimenttransport",
     thesisDesc: "Een 1DV-modelstudie van concentratieprofielen van gesuspendeerd sediment in eenparige stroming in een open kanaal, met aandacht voor turbulentie, sedimenttransport en processen nabij de bodem.",
@@ -63,8 +81,8 @@ const translations = {
     projectPlaceholder: "Projectdetails worden toegevoegd", futureFocus: "PROFESSIONELE INTERESSE", maritimeVisual: "MARITIEME INFRASTRUCTUUR",
     maritimeTitle: "Kust- en havenbouwkunde", maritimeDesc: "Een professioneel interessegebied op het raakvlak van waterprocessen, haveninfrastructuur, kustveerkracht en maritieme constructie.",
     interestLink: "Bekijk mijn interesses", aboutLabel: "OVER MIJ", aboutTitle: "Nieuwsgierig naar de processen achter de cijfers.",
-    aboutP1: "Mijn achtergrond combineert civiele techniek met een masteropleiding in waterbronnen aan KU Leuven. Voor mijn masterthesis werkte ik aan numerieke modellering van concentratieprofielen van gesuspendeerd sediment en de interpretatie van experimentele gegevens.",
-    aboutP2: "Ik wil begrijpen waarom een model zich op een bepaalde manier gedraagt, technische bevindingen helder communiceren en analytisch werk verbinden met praktische ingenieursvragen.",
+    aboutBandP1: "Mijn achtergrond combineert civiele techniek met een masteropleiding in waterbronnen aan KU Leuven. Voor mijn masterthesis werkte ik aan numerieke modellering van concentratieprofielen van gesuspendeerd sediment en de interpretatie van experimentele gegevens.",
+    aboutBandP2: "Ik wil begrijpen waarom een model zich op een bepaalde manier gedraagt, technische bevindingen helder communiceren en analytisch werk verbinden met praktische ingenieursvragen.",
     aboutNote: "Dit portfolio is in ontwikkeling. Projectbeschrijvingen en resultaten worden aangevuld met geverifieerd materiaal uit mijn werk.",
     capabilities: "VAARDIGHEDEN", skillsTitle: "Tools en kennisgebieden", skillsAside: "Een eerste overzicht dat wordt verfijnd zodra projecten en vaardigheidsniveaus zijn gecontroleerd.",
     skill1Title: "Water en hydraulica", skill1Text: "Stroming in open kanalen, sedimenttransport en fysische processen die verband houden met water.",
@@ -83,17 +101,20 @@ function setLanguage(lang) {
   const chosen = supportedLanguages.includes(lang) ? lang : "en";
   document.documentElement.lang = chosen;
   languageSelect.value = chosen;
+
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
     const translated = translations[chosen][key];
     if (translated !== undefined) element.innerHTML = translated;
   });
+
   const titles = {
-    en: "Andrea Cervantes | Engineering Portfolio",
-    es: "Andrea Cervantes | Portafolio de ingeniería",
-    nl: "Andrea Cervantes | Ingenieursportfolio"
+    en: "Andrea Cervantes | Water, Engineering & Project Development",
+    es: "Andrea Cervantes | Agua, ingeniería y desarrollo de proyectos",
+    nl: "Andrea Cervantes | Water, techniek en projectontwikkeling"
   };
   document.title = titles[chosen];
+
   try { localStorage.setItem("portfolio-language", chosen); } catch (error) {}
 }
 
@@ -110,12 +131,14 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 const menuToggle = document.getElementById("menu-toggle");
 const mobileNav = document.getElementById("mobile-nav");
+
 menuToggle.addEventListener("click", () => {
   const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
   menuToggle.setAttribute("aria-expanded", String(!isOpen));
   mobileNav.hidden = isOpen;
   menuToggle.setAttribute("aria-label", isOpen ? "Open menu" : "Close menu");
 });
+
 mobileNav.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     mobileNav.hidden = true;
@@ -124,19 +147,15 @@ mobileNav.querySelectorAll("a").forEach((link) => {
   });
 });
 
-/* Hero photo carousel */
+/* Automatic hero photo carousel */
 document.addEventListener("DOMContentLoaded", () => {
   const photos = document.querySelectorAll(".photo-carousel .hero-photo");
-
   if (photos.length < 2) return;
 
   let current = 0;
+  photos.forEach((photo, index) => photo.classList.toggle("active", index === 0));
 
-  photos.forEach((photo, index) => {
-    photo.classList.toggle("active", index === 0);
-  });
-
-  setInterval(() => {
+  window.setInterval(() => {
     photos[current].classList.remove("active");
     current = (current + 1) % photos.length;
     photos[current].classList.add("active");

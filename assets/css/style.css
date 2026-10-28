@@ -49,14 +49,18 @@ h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.02em; }
 .text-link { font-size: .88rem; font-weight: 700; border-bottom: 1px solid #9bb7b0; padding-bottom: 3px; }
 .hero-note { margin: 34px 0 0; font-size: .78rem; color: var(--muted); }
 .hero-art { position: relative; background: var(--mint); min-height: 430px; overflow: hidden; }
+.photo-carousel { width: 100%; max-width: 520px; aspect-ratio: 4 / 5; border-radius: 18px; isolation: isolate; }
+.photo-carousel .hero-photo { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; visibility: hidden; transition: opacity 1s ease, visibility 1s ease; }
+.photo-carousel .hero-photo.active { opacity: 1; visibility: visible; }
 .contour-art { display: block; width: 100%; height: 100%; min-height: 430px; }
-.art-label, .art-caption { position: absolute; z-index: 1; display: flex; justify-content: space-between; gap: 12px; font-size: .64rem; font-weight: 800; letter-spacing: .13em; color: var(--navy); }
-.art-label { top: 20px; left: 20px; }
-.art-caption { bottom: 20px; left: 20px; right: 20px; }
+.art-label, .art-caption { display: none !important; }
 .intro-strip { background: #e9eeea; padding-block: 34px; }
-.intro-grid { display: grid; grid-template-columns: .7fr 1.3fr; align-items: start; gap: 50px; }
-.intro-grid .eyebrow { margin: 4px 0 0; }
+.intro-grid { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: start; gap: clamp(2rem, 5vw, 5rem); }
+.intro-approach, .intro-about { min-width: 0; }
+.intro-grid .eyebrow { margin: 4px 0 16px; }
 .intro-statement { max-width: 800px; color: var(--navy); font-family: var(--serif); font-size: clamp(1.35rem, 2.3vw, 2rem); line-height: 1.35; margin: 0; }
+.intro-about > p:not(.eyebrow) { color: #425760; margin: 0 0 1rem; line-height: 1.7; font-size: .94rem; }
+.intro-about > p:last-child { margin-bottom: 0; }
 .content-section { padding-block: clamp(65px, 8vw, 105px); }
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 36px; }
 .section-heading .eyebrow { margin-bottom: 12px; }
@@ -114,6 +118,10 @@ h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.02em; }
   .hero-art, .contour-art { min-height: 360px; }
   .project-featured { grid-template-columns: 1fr 1fr; }
 }
+@media (max-width: 768px) {
+  .intro-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .photo-carousel { max-width: 100%; aspect-ratio: 4 / 5; }
+}
 @media (max-width: 680px) {
   .section-wrap { width: min(100% - 32px, var(--max)); }
   .site-header { padding-inline: 16px; min-height: 66px; }
@@ -122,9 +130,9 @@ h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.02em; }
   .mobile-nav { top: 65px; }
   .hero { grid-template-columns: 1fr; padding-block: 50px; }
   .hero-art, .contour-art { min-height: 300px; }
-  .intro-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 24px; }
+  .project-featured { grid-template-columns: 1fr; }
   .section-heading { align-items: start; flex-direction: column; gap: 14px; }
-  .project-grid, .project-featured { grid-template-columns: 1fr; }
+  .project-grid { grid-template-columns: 1fr; }
   .project-featured { grid-column: auto; }
   .project-featured .project-visual { min-height: 270px; }
   .skills-grid { grid-template-columns: 1fr; }
@@ -132,57 +140,3 @@ h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.02em; }
   .footer-inner { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
-
-/* Hero photo carousel fix */
-.hero-art.photo-carousel {
-  position: relative;
-  width: 100%;
-  max-width: 520px;
-  aspect-ratio: 4 / 5;
-  overflow: hidden;
-  border-radius: 18px;
-  isolation: isolate;
-}
-
-.hero-art.photo-carousel .hero-photo {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1s ease, visibility 1s ease;
-}
-
-.hero-art.photo-carousel .hero-photo.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.hero-art.photo-carousel .art-label,
-.hero-art.photo-carousel .art-caption {
-  position: absolute;
-  z-index: 2;
-}
-
-.hero-art.photo-carousel .art-label {
-  top: 16px;
-  left: 16px;
-}
-
-.hero-art.photo-carousel .art-caption {
-  right: 16px;
-  bottom: 16px;
-  left: 16px;
-}
-
-@media (max-width: 768px) {
-  .hero-art.photo-carousel {
-    max-width: 100%;
-    aspect-ratio: 4 / 5;
-  }
-}
-
