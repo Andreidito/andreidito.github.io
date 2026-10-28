@@ -123,3 +123,22 @@ mobileNav.querySelectorAll("a").forEach((link) => {
     menuToggle.setAttribute("aria-label", "Open menu");
   });
 });
+
+/* Hero photo carousel */
+document.addEventListener("DOMContentLoaded", () => {
+  const photos = document.querySelectorAll(".photo-carousel .hero-photo");
+
+  if (photos.length < 2) return;
+
+  let current = 0;
+
+  photos.forEach((photo, index) => {
+    photo.classList.toggle("active", index === 0);
+  });
+
+  setInterval(() => {
+    photos[current].classList.remove("active");
+    current = (current + 1) % photos.length;
+    photos[current].classList.add("active");
+  }, 5000);
+});
