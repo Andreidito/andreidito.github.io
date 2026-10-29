@@ -23,8 +23,18 @@ button, select { font: inherit; }
 .skip-link:focus { left: .5rem; }
 .section-wrap { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
 .site-header { position: sticky; top: 0; z-index: 10; min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 max(24px, calc((100% - var(--max)) / 2)); background: rgba(247,247,243,.94); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(216,223,220,.8); }
-.brand { color: var(--navy); font-size: 1.4rem; font-weight: 800; letter-spacing: -.08em; }
-.brand span { color: var(--teal); }
+.brand {
+  color: var(--navy);
+  font-family: "URW Chancery L", "Brush Script MT", "Segoe Script", cursive;
+  font-size: 1.55rem;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -.055em;
+  white-space: nowrap;
+  transform: rotate(-4deg);
+  transform-origin: left center;
+  display: inline-block;
+}
 .desktop-nav { display: flex; align-items: center; gap: clamp(18px, 3vw, 36px); margin-left: auto; }
 .desktop-nav a, .mobile-nav a { font-size: .87rem; color: #43555e; }
 .header-actions { display: flex; align-items: center; gap: 8px; }
@@ -140,3 +150,14 @@ h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.02em; }
   .footer-inner { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+
+.hero-eyebrow {
+  margin: 0 0 .65rem;
+  color: var(--teal);
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: .13em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
