@@ -29,10 +29,9 @@ button, select { font: inherit; }
   font-size: 1.55rem;
   font-weight: 500;
   font-style: italic;
-  letter-spacing: -.055em;
+  letter-spacing: -.035em;
   white-space: nowrap;
-  transform: rotate(-4deg);
-  transform-origin: left center;
+  transform: none;
   display: inline-block;
 }
 .desktop-nav { display: flex; align-items: center; gap: clamp(18px, 3vw, 36px); margin-left: auto; }
