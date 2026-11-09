@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Conceptual schematic of a river reach, bridge, culverts, cross-sections and floodplain">
+<rect width="1200" height="700" fill="#edf4f1"/><path d="M0 420Q150 340 285 405T545 410Q710 408 815 395T1200 420V700H0Z" fill="#dbe6d4"/>
+<path d="M0 476Q130 402 270 455T530 462Q710 452 840 446T1200 470V590Q1060 555 930 568T650 585Q440 600 280 560T0 590Z" fill="#81b5b6"/>
+<path d="M0 523Q140 455 280 505T540 515Q720 503 850 497T1200 516" fill="none" stroke="#356d7e" stroke-width="8"/>
+<path d="M560 245V492M640 245V486M520 245H680M545 280H655" stroke="#294d5a" stroke-width="20" stroke-linecap="square"/>
+<path d="M560 475H640M560 500H640" stroke="#e9eee8" stroke-width="18"/>
+<g fill="#fff" stroke="#67848a" stroke-width="4"><circle cx="150" cy="350" r="12"/><circle cx="310" cy="380" r="12"/><circle cx="440" cy="404" r="12"/><circle cx="750" cy="405" r="12"/><circle cx="920" cy="395" r="12"/><circle cx="1085" cy="410" r="12"/></g>
+<g stroke="#6e9a8b" stroke-width="3" stroke-dasharray="10 12"><path d="M150 350V520"/><path d="M310 380V520"/><path d="M440 404V520"/><path d="M750 405V520"/><path d="M920 395V520"/><path d="M1085 410V520"/></g>
+<text x="600" y="120" text-anchor="middle" fill="#244b50" font-family="Arial,sans-serif" font-size="36" font-weight="700">RIVER &amp; FLOODPLAIN MODEL</text>
+<text x="600" y="655" text-anchor="middle" fill="#486b65" font-family="Arial,sans-serif" font-size="23">Cross-sections · bridge structure · flood extent</text>
+</svg>

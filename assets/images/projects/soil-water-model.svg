@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Conceptual two-dimensional soil-water model cross-section showing orchard trees, drip irrigation and separate root zones">
+<rect width="1200" height="700" fill="#edf4f1"/><path d="M0 280H1200" stroke="#597c6f" stroke-width="8"/>
+<path d="M0 290H1200V700H0Z" fill="#d9cbb1"/><path d="M0 400H1200" stroke="#b59e7d" stroke-width="4"/><path d="M0 530H1200" stroke="#b59e7d" stroke-width="4"/>
+<path d="M140 277Q155 175 235 115Q315 170 330 277Z" fill="#56836f"/><path d="M165 277V206M210 277V177M270 277V190M310 277V235" stroke="#775b3d" stroke-width="14" stroke-linecap="round"/>
+<path d="M860 280V190M830 190Q855 115 905 130Q955 140 970 190Z" fill="#69927e"/><path d="M850 280V240M890 280V216M930 280V242" stroke="#775b3d" stroke-width="12" stroke-linecap="round"/>
+<path d="M110 282H370" stroke="#2d8290" stroke-width="12" stroke-linecap="round"/><path d="M240 282V310M235 320Q240 337 245 320" fill="none" stroke="#368d9b" stroke-width="8"/>
+<g fill="none" stroke="#8a7255" stroke-width="7" stroke-linecap="round"><path d="M235 280Q230 385 170 470M235 280Q295 375 360 430M235 315Q212 433 250 570M235 330Q300 480 270 610"/><path d="M885 280Q830 390 720 438M885 280Q920 420 1030 500M885 315Q870 470 820 585M885 320Q960 455 960 600"/></g>
+<path d="M520 310v80m0 36v80m0 38v80" stroke="#4f9ca5" stroke-width="8" stroke-linecap="round"/><path d="m502 382 18 20 18-20m-36 101 18 20 18-20m-36 100 18 20 18-20" fill="none" stroke="#4f9ca5" stroke-width="8"/>
+<text x="600" y="88" text-anchor="middle" fill="#244b50" font-family="Arial,sans-serif" font-size="36" font-weight="700">SOIL WATER BALANCE</text>
+<text x="600" y="646" text-anchor="middle" fill="#486b65" font-family="Arial,sans-serif" font-size="23">Pear roots · grass uptake · drainage</text>
+</svg>
