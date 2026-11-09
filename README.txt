@@ -1,20 +1,17 @@
-PORTFOLIO V11 – VISUAL REFINEMENT
+PORTFOLIO V12 – DESIGN CORRECTION
 
-Based on the previous v10 layout. This update keeps the hero, intro/About strip immediately below the hero, interactive project cards and modal windows.
+This update is based directly on v10, not the rejected v11 layout.
 
-Changes:
-- Header wordmark now reads Andrea Cervantes Tinco.
-- Full name is highlighted above the hero title.
-- Hero introduction is shorter and no longer repeats the About text.
-- About text focuses on motivation, collaboration, project coordination and interests.
-- Capabilities redesigned as four clear cards without redundant keyword lines.
-- Contact and footer share a restrained deep teal/navy background.
-- Updated English, Spanish and Dutch translations.
-- Cache-busting versions updated to v=11.
+It restores:
+- Personal social/environmental impact statement in the hero.
+- Two-column About strip: left-side statement plus right-side professional introduction, including MSc.
+- Four Capabilities cards with visible inline SVG icons.
+- A compact contact panel in deep teal, surrounded by the light page background, with a short explanatory sentence.
+- Header wordmark changed to Andrea Cervantes Tinco.
 
-Installation:
+Install:
 1. Replace index.html, assets/css/style.css and assets/js/main.js.
-2. Merge the included assets/images/projects folder into your existing assets/images/projects folder.
-3. Keep your existing personal photos in assets/images: Andrea_top.png, Uganda_campo1.png and Uganda_niños.png.
-4. Do not delete other existing images or folders.
-5. Commit and push to GitHub Pages.
+2. Merge assets/images/projects into your existing assets/images/projects.
+3. Keep personal photos in assets/images (Andrea_top.png, Uganda_campo1.png, Uganda_niños.png).
+4. Do not replace the entire assets/images folder.
+5. Commit and push. Hard refresh or use a private browser window.
