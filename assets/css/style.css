@@ -160,3 +160,29 @@ h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.02em; }
   line-height: 1.4;
   text-transform: uppercase;
 }
+
+
+/* Selected project cards */
+.visual-uganda {
+  background: linear-gradient(180deg, rgba(16,45,64,.03), rgba(16,45,64,.55)),
+    url("../images/Uganda_campo1.png") center 55% / cover;
+}
+.visual-mangrove { background: linear-gradient(145deg, #dce9e5, #8aaca3); }
+.visual-shellfish { background: linear-gradient(145deg, #e6e1d4, #b7c8c1); }
+.visual-potato { background: linear-gradient(145deg, #e7e2cf, #b5c49c); }
+.visual-belgium { background: linear-gradient(145deg, #dce5e8, #a8bdc2); }
+.visual-mangrove::after, .visual-shellfish::after, .visual-potato::after, .visual-belgium::after {
+  content: ""; position: absolute; inset: 18% 12%;
+  border: 1px solid rgba(23,59,82,.22); border-radius: 50%;
+  transform: rotate(-18deg);
+}
+.visual-shellfish::after { inset: 24% 18%; border-radius: 45% 55% 50% 40%; }
+.visual-potato::after { inset: 15% 25%; border-radius: 48%; transform: rotate(28deg); }
+.visual-belgium::after { inset: 20% 14%; border-radius: 4px; transform: rotate(8deg); }
+.project-card:not(.project-featured) .project-visual { min-height: 230px; }
+.project-card .visual-title { z-index: 1; }
+@media (max-width: 760px) {
+  .project-grid { grid-template-columns: 1fr; }
+  .project-featured { grid-column: auto; grid-template-columns: 1fr; }
+  .project-featured .project-visual { min-height: 260px; }
+}
