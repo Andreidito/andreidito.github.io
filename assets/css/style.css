@@ -251,3 +251,101 @@ body.modal-open { overflow:hidden; }
  .modal-image { height:190px; }
  .modal-columns { grid-template-columns:1fr; gap:0; }
 }
+
+
+/* V11 visual refinement: stronger personal identity and balanced sections */
+.brand {
+  color: var(--navy);
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -.035em;
+  white-space: nowrap;
+}
+.brand span { display:none; }
+.hero-eyebrow {
+  margin: 0 0 13px;
+  color: var(--teal);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .13em;
+  line-height: 1.4;
+}
+.hero-role {
+  margin: -10px 0 18px;
+  color: var(--navy);
+  font-size: .88rem;
+  font-weight: 700;
+  letter-spacing: .015em;
+}
+.hero-lede { margin-bottom: 0; }
+.intro-strip { background: #e8eeeb; }
+.intro-statement { max-width: 440px; }
+.intro-about > p:not(.eyebrow) { max-width: 660px; }
+.skills-grid.capabilities-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+.capabilities-grid .skill-block {
+  position:relative;
+  min-height:190px;
+  padding:26px 28px 24px;
+  background:#edf1ee;
+  border:1px solid #dce5e0;
+  border-radius:8px;
+  transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.capabilities-grid .skill-block:hover {
+  transform:translateY(-3px);
+  background:#f2f5f2;
+  box-shadow:0 12px 26px rgba(23,59,82,.07);
+}
+.capabilities-grid .skill-number {
+  display:inline-block;
+  margin-bottom:18px;
+  color:var(--teal);
+  font-size:.72rem;
+  font-weight:800;
+  letter-spacing:.12em;
+}
+.capabilities-grid .skill-block h3 {
+  margin-bottom:10px;
+  font-size:1.12rem;
+}
+.capabilities-grid .skill-block p {
+  max-width:480px;
+  margin:0;
+  color:#596b70;
+  font-size:.9rem;
+  line-height:1.65;
+}
+.contact-section {
+  background:#183b46;
+  color:#f7f7f3;
+  padding-block:clamp(58px,7vw,88px);
+}
+.contact-minimal { max-width:var(--max); }
+.contact-minimal .eyebrow { color:#b8d5ce; }
+.contact-minimal h2 { color:#fff; }
+.contact-minimal .contact-links a {
+  color:#f7f7f3;
+  border-color:rgba(220,233,229,.35);
+}
+.contact-minimal .contact-links a:hover { color:#b8d5ce; }
+.site-footer {
+  background:#183b46;
+  color:#c8d8d4;
+  border-top:1px solid rgba(220,233,229,.18);
+}
+.site-footer a:hover { color:#fff; }
+@media(max-width:760px) {
+  .skills-grid.capabilities-grid { grid-template-columns:1fr; }
+  .capabilities-grid .skill-block { min-height:0; }
+}
+@media(max-width:680px) {
+  .brand { font-size:.88rem; }
+  .hero-eyebrow { font-size:.68rem; }
+  .hero-role { font-size:.8rem; }
+}
