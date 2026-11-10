@@ -518,3 +518,8 @@ body.modal-open { overflow:hidden; }
 .project-grid-interactive .thesis-carousel .thesis-slide { object-fit:contain; filter:none; }
 #about,#projects,#skills,#contact { scroll-margin-top:78px; }
 @media(max-width:680px) { .about-layout { grid-template-columns:1fr; gap:18px; } .about-copy .eyebrow { margin-bottom:12px; } }
+.project-grid-interactive .project-card[hidden] { display:none !important; }
+.project-grid-interactive .project-card-label { position:absolute !important; width:1px !important; height:1px !important; margin:-1px !important; padding:0 !important; overflow:hidden !important; clip:rect(0,0,0,0) !important; white-space:nowrap !important; border:0 !important; }
+.project-grid-interactive .project-image { box-sizing:border-box; display:block; position:relative; overflow:hidden; }
+.project-grid-interactive .project-image-title-overlay { box-sizing:border-box; }
+.about-section h2 { max-width:460px; font-size:clamp(1.45rem,2.2vw,2rem); line-height:1.3; }
