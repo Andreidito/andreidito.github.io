@@ -427,7 +427,7 @@ body.modal-open { overflow:hidden; }
 .brand .brand-mark svg { width:28px; height:28px; fill:none; stroke:var(--teal); stroke-width:2.2; stroke-linecap:round; }
 .about-layout { align-items:start; }
 .about-principle { margin:24px 0 0; padding:14px 0 14px 16px; border-left:2px solid var(--teal); color:#50656a; font-size:1rem; line-height:1.6; max-width:400px; }
-.project-grid-interactive .project-image { height:225px; min-height:0; aspect-ratio:16/10; background:#e8efec; }
+.project-grid-interactive .project-image { width:100%; height:225px; min-height:0; aspect-ratio:16/10; background:#e8efec; }
 .project-grid-interactive .project-image img { height:100%; min-height:0; filter:saturate(.74) contrast(.98); }
 .project-grid-interactive .project-image-pair img:first-of-type { left:0; width:50%; border-right:2px solid #fff; }
 .project-grid-interactive .project-image-pair img:nth-of-type(2) { left:50%; width:50%; }
